@@ -1,0 +1,22 @@
+.body {
+    background-color: var(--body_background,#fff);
+    color: var(--body_color,#141414);
+    font-family: Sequel Sans Book,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.3125rem;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+
+    .split-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        min-height: 100%;
+
+        .primary-container {
+            overflow: hidden;
+        }
+    }
+}
